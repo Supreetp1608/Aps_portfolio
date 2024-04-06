@@ -1,5 +1,5 @@
 
-# Network Security
+# 🛡️ Network Security 🛡️
 
 <dl>
 <dt>Course Name</dt>
@@ -12,11 +12,11 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-* * *
+---
 
 > Network security is not just about building walls; it's about establishing trust in an interconnected world.
->
-> 
+
+---
 
 #### Note:
 This page hosts:
@@ -28,7 +28,4 @@ This page hosts:
 5. Challenges
 6. To-Do
 
-
-
-* * *
-
+---
