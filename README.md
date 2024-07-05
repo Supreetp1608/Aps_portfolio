@@ -1,119 +1,102 @@
-# 🛡️ Network Security 🛡️
+# Load Balancing in OpenStack Cloud: Investigating Intelligent Data Structures
 
-<dl>
-<dt>Course Name</dt>
-<dd>Algorithmic Problem Solving</dd>
-<dt>Course Code</dt>
-<dd>23ECSE309</dd>
-<dt>Name</dt>
-<dd>Supreet Palankar</dd>
-<dt>University</dt>
-<dd>KLE Technological University, Hubballi-31</dd>
-</dl>
+## Course Information
 
----
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Student Name:** Supreet Palankar
+- **SRN:** 01fe21bcs068
+- **Course Instructor:** Prakash Hegade
+- **University:** KLE Technological University, Hubballi-31
 
-> Network security is not just about building walls; it's about establishing trust in an interconnected world.
+## Portfolio Topic/Domain: Load Balancing in OpenStack Cloud
+
+### A Move Towards Enhanced OpenStack Service Management
 
 ---
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Why Portfolio](#why-portfolio)
-3. [Objectives](#objectives)
-4. [Design](#design)
-5. [Challenges](#challenges)
-6. [To-Do](#to-do)
+- [Introduction](#introduction)
+- [Objectives/Need of Portfolio](#objectivesneed-of-portfolio)
+- [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
+  - [Data Collection and Monitoring](#data-collection-and-monitoring)
+  - [Round Robin Load Balancing](#round-robin-load-balancing)
+  - [Least Connections Load Balancing](#least-connections-load-balancing)
+  - [Weighted Round Robin Load Balancing](#weighted-round-robin-load-balancing)
+  - [Least Load Load Balancing](#least-load-load-balancing)
+- [Challenges](#challenges)
+- [To-Do](#to-do)
+- [Conclusion](#conclusion)
 
 ---
 
 ## Introduction
 
-Welcome to my Network Security portfolio! This repository showcases my work and methods for improving network security, which I believe surpass existing methods in the domain.
+Welcome to the Portfolio Project on **Load Balancing in OpenStack Cloud: Investigating Intelligent Data Structures**. This project is a deep dive into the advanced algorithms and data structures that power load balancing in OpenStack, enabling enhanced service management and efficiency.
 
-[Click here to view the code](./code/)
+OpenStack is a prominent open-source cloud computing platform that provides users with a convenient way to manage large-scale cloud environments. It leverages complex algorithms and data structures to ensure efficiency, reliability, and scalability in load balancing.
 
----
+## Objectives/Need of Portfolio
 
-## Why Portfolio
+The main objectives of this portfolio are:
 
-This portfolio demonstrates my ability to solve complex algorithmic problems in the field of network security. It serves as a testament to my skills and knowledge, and provides a platform to share my innovative solutions with others.
+- To understand the significance of advanced algorithms and data structures in efficient load balancing within OpenStack.
+- To explore various business use cases and applications of these algorithms and data structures.
+- To analyze the impact of these technologies on user experience and system performance.
+- To provide insights into data analysis and the role of intelligent data structures in load balancing.
 
----
+## Algorithms and Data Structures: Business Use Cases and Applications
 
-## Objectives
+In this section, we will explore various algorithms and data structures used in load balancing within OpenStack to manage services efficiently. Some of the key focus areas will include:
 
-- **Demonstrate my understanding** of network security concepts.
-- **Showcase my coding skills** through practical implementations.
-- **Highlight my ability** to solve real-world security problems.
-- **Present my innovative approach** to network security.
+### Data Collection and Monitoring
 
----
+Efficient load balancing starts with accurate data collection and monitoring. This involves gathering metrics such as CPU and memory usage from various instances to make informed decisions.
 
-## Design
+- **File:** [Data Collection](datacollection.md)
 
-The design of my portfolio focuses on clarity and usability. I have structured the content to be easily navigable and visually appealing, ensuring that viewers can quickly find the information they need.
+### Round Robin Load Balancing
 
-- **Code Structure:** Organized in a logical manner, with clear comments and documentation.
-- **Visual Elements:** Use of icons, emojis, and formatting to enhance readability.
-- **Navigation:** Easy-to-use table of contents and links to relevant sections.
+Round Robin Load Balancing is one of the simplest methods. It distributes incoming requests to instances in a circular order, ensuring a balanced distribution of load.
 
----
+- **File:** [Round Robin Load Balancing](roundrobin.md)
+
+### Least Connections Load Balancing
+
+Least Connections Load Balancing assigns incoming requests to the instance with the fewest active connections, helping to evenly distribute the load across instances.
+
+- **File:** [Least Connections Load Balancing](leastconnections.md)
+
+### Weighted Round Robin Load Balancing
+
+Weighted Round Robin Load Balancing enhances the Round Robin method by assigning weights to instances, allowing more powerful instances to handle more requests.
+
+- **File:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
+
+### Least Load Load Balancing
+
+Least Load Load Balancing assigns incoming requests to the instance with the least load, taking into account CPU and memory usage.
+
+- **File:** [Least Load Load Balancing](leastload.md)
 
 ## Challenges
 
-Throughout this project, I encountered several challenges, including:
-
-- **Identifying security vulnerabilities:** Understanding the most common network security issues and how to address them.
-- **Implementing efficient algorithms:** Creating solutions that are both effective and efficient.
-- **Balancing security and usability:** Ensuring that the solutions are user-friendly without compromising security.
-
----
+- Ensuring real-time data collection and monitoring.
+- Implementing efficient algorithms to handle dynamic and unpredictable loads.
+- Balancing the trade-off between simplicity and performance in algorithm design.
 
 ## To-Do
 
-- [ ] Implement additional security features.
-- [ ] Conduct further testing and validation.
-- [ ] Optimize the existing code for better performance.
-- [ ] Update documentation with new findings.
+- Implement additional load balancing algorithms.
+- Optimize data collection methods for minimal performance impact.
+- Conduct performance testing and analysis under different load conditions.
+
+## Conclusion
+
+This portfolio aims to provide a comprehensive understanding of how OpenStack leverages cutting-edge algorithms and data structures to maintain a competitive edge and deliver exceptional services to its users. By exploring and implementing various load balancing techniques, we can enhance the efficiency and reliability of OpenStack cloud environments.
 
 ---
 
-Thank you for visiting my portfolio! I hope you find my work both interesting and valuable. If you have any questions or feedback, please feel free to reach out.
+Feel free to explore the different sections of this portfolio to gain insights into the intelligent data structures and algorithms used in load balancing within OpenStack.
 
-[Click here to view the code](./code/)
-
----
-
-## 1. Introduction
-
-Network security is a vital aspect of modern technology, ensuring the confidentiality, integrity, and availability of data transmitted over networks.
-
-## 2. Why Portfolio
-
-Having a portfolio in network security showcases your expertise in safeguarding information and infrastructure from cyber threats, making you a valuable asset in the digital age.
-
-## 3. Objectives
-
-- Demonstrate understanding of network security principles.
-- Showcase practical implementations of security measures.
-- Highlight the importance of proactive security measures in mitigating risks.
-
-## 4. Design
-
-Designing robust security protocols involves understanding network vulnerabilities, threat vectors, and implementing layers of defense mechanisms to safeguard against potential attacks.
-
-## 5. Challenges
-
-- Adapting to evolving cyber threats.
-- Balancing security measures with usability.
-- Securing legacy systems against modern attacks.
-
-## 6. To-Do
-
-- Implement encryption techniques for data protection.
-- Deploy intrusion detection systems for real-time threat monitoring.
-- Conduct regular security audits to identify vulnerabilities and address them promptly.
-
----
