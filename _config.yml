@@ -1,6 +1,41 @@
 # _config.yml
 
-remote_theme: pages-themes/hacker@v0.2.0
+title: Your Portfolio Title
+description: A descriptive subtitle for your portfolio
+author: Your Name
 
+# Theme Settings
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/cache
+  - vendor/bundle
+  - vendor/gems
+  - vendor/ruby
+
+# Permalinks
+permalink: /:title/
+
+# Customize your navigation links
+header_pages:
+  - index.md
+  - roundrobin.md
+  - leastconnections.md
+  - weightedroundrobin.md
+  - leastload.md
+  - datacollection.md
+  # Add more pages as needed
+
+# GitHub Pages settings
+github:
+  is_project_page: false
+
+# Other custom settings as per your requirement
