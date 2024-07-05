@@ -1,8 +1,8 @@
 # _config.yml
 
-title: Your Portfolio Title
-description: A descriptive subtitle for your portfolio
-author: Your Name
+title: Load Balancing in OpenStack Cloud: Investigating Intelligent Data Structures
+description: Exploring Advanced Load Balancing Techniques in OpenStack Cloud
+author: Supreet Palankar
 
 # Theme Settings
 remote_theme: pages-themes/hacker@v0.2.0
