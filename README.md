@@ -157,6 +157,15 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 **Improvements over existing methods:**
 - Offers a highly adaptive approach that ensures optimal use of resources by directing traffic to the least loaded instance, improving response times and system efficiency.
 
+### Time and Space Complexity of Load Balancing Algorithms
+
+| Algorithm                  | Time Complexity                      | Space Complexity                        |
+|----------------------------|--------------------------------------|-----------------------------------------|
+| **Ant Colony Optimization**| Depends on implementation complexity | Depends on implementation complexity    |
+| **Weighted Round Robin**   | O(1)                                 | O(n) (for storing instance weights)     |
+| **Round Robin**            | O(1)                                 | O(n) (for storing instance states)      |
+| **Least Connections**      | O(n) (to find instance with fewest connections) | O(n) (for storing instance states)      |
+| **Least Load**             | O(n) (to find instance with least load) | O(n) (for storing instance metrics)     |
 
 ## Challenges
 
