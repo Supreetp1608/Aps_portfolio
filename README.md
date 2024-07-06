@@ -20,6 +20,7 @@
 - [Introduction](#introduction)
 - [Objectives/Need of Portfolio](#objectivesneed-of-portfolio)
 - [Visuals](#visuals)
+- [System Model](#system-model)
 - [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
   - [Data Collection and Monitoring](#data-collection-and-monitoring)
   - [Ant Colony Optimization (ACO)](#ant-colony-optimization-aco-for-load-balancing)
@@ -69,6 +70,30 @@ The main objectives of this portfolio are:
 ### Topology
 ![Instances](images/topology.png)
 *This image illustrates the topology created in the OpenStack environment.*
+
+
+## System Model
+
+The following diagram represents the process of load balancing in an OpenStack cloud environment using various algorithms.
+
+![System Model](model.png)
+
+### Description
+
+The system model depicted in the diagram represents the process of load balancing in an OpenStack cloud environment using various algorithms. Below is an explanation of each component in the diagram:
+
+1. **User Request:**
+   - This represents the incoming requests from users that need to be processed by the cloud instances.
+
+2. **Load Balancing Algorithms:**
+   - This component is responsible for deciding how to distribute the incoming requests among the available instances. It can use different algorithms such as Round Robin, Least Connections, Weighted Round Robin, Least Load, or Ant Colony Optimization (ACO) to make these decisions.
+
+3. **Monitor Resource Usage:**
+   - This module continuously monitors the resource usage (CPU, memory, etc.) of each instance. It provides real-time data that the load balancing algorithms use to make informed decisions about where to route incoming requests.
+
+4. **Instances (Instance 1, Instance 2, ... , Instance n):**
+   - These are the virtual machines or instances that actually process the user requests. The load balancer distributes the workload among these instances based on the selected algorithm and monitored resource usage.
+
 
 ## Algorithms and Data Structures: Business Use Cases and Applications
 
