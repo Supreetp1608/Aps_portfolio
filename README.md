@@ -78,7 +78,7 @@ In this section, we propose to build and explore various algorithms and data str
 
 Efficient load balancing starts with accurate data collection and monitoring. We will develop a module that gathers essential metrics such as CPU and memory usage from various instances. This data will be crucial for making informed load balancing decisions.
 
-- **File:** [Data Collection](datacollection.md)
+- **Click here:** [Data Collection](datacollection.md)
 
 ### Ant Colony Optimization (ACO) for Load Balancing
 
