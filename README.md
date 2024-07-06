@@ -22,6 +22,7 @@
 - [Visuals](#visuals)
 - [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
   - [Data Collection and Monitoring](#data-collection-and-monitoring)
+  - [Ant Colony Optimization (ACO)](#ant_colony.md)
   - [Round Robin Load Balancing](#round-robin-load-balancing)
   - [Least Connections Load Balancing](#least-connections-load-balancing)
   - [Weighted Round Robin Load Balancing](#weighted-round-robin-load-balancing)
@@ -74,6 +75,12 @@ In this section, we propose to build and explore various algorithms and data str
 Efficient load balancing starts with accurate data collection and monitoring. We will develop a module that gathers essential metrics such as CPU and memory usage from various instances. This data will be crucial for making informed load balancing decisions.
 
 - **File:** [Data Collection](datacollection.md)
+
+### Ant Colony Optimization (ACO) for Load Balancing
+
+Ant Colony Optimization (ACO) is a probabilistic technique inspired by the foraging behavior of ants. It is used for solving computational problems which can be reduced to finding good paths through graphs. In the context of load balancing, ACO helps in dynamically distributing incoming requests to various instances by simulating the pheromone trail-following behavior of ants.
+
+- **File:** [ACO Load Balancing](ACO.cpp)
 
 ### Round Robin Load Balancing
 
