@@ -108,21 +108,16 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 ## Why These Methods Are Better
 
-### Round Robin Load Balancing
+### Ant Colony Optimization (ACO) for Load Balancing
 **Advantages:**
-- Simple and easy to implement.
-- Ensures equal distribution of traffic across all instances.
+- Adaptive Learning: Continuously updates the routing paths based on real-time data, leading to better performance over time.
+- Scalability: Efficiently manages a large number of instances by distributing load based on pheromone trails.
+- Resilience: Handles dynamic and unpredictable loads effectively by leveraging the collective learning of multiple agents (ants).
 
 **Improvements over existing methods:**
-- Provides a fair distribution of requests in a circular manner, avoiding the risk of overloading a single instance.
-
-### Least Connections Load Balancing
-**Advantages:**
-- Dynamically allocates requests to instances with the fewest active connections.
-- Helps in evenly distributing the load and preventing bottlenecks.
-
-**Improvements over existing methods:**
-- Unlike static allocation methods, it adapts to real-time traffic conditions, reducing the chances of overloading any single instance.
+- Enhanced Decision Making: Utilizes historical performance data through pheromone trails, leading to more informed and effective load distribution decisions.
+- Optimized Resource Utilization: Ensures optimal use of available resources by dynamically adapting to changing conditions.
+- Reduced Bottlenecks: Minimizes the risk of overloading individual instances by distributing requests based on real-time metrics and historical data.
 
 ### Weighted Round Robin Load Balancing
 **Advantages:**
@@ -131,6 +126,24 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 **Improvements over existing methods:**
 - Provides a more nuanced distribution by considering the differing capacities of instances, leading to better overall performance.
+
+### Round Robin Load Balancing
+**Advantages:**
+- Simple and easy to implement.
+- Ensures equal distribution of traffic across all instances.
+
+**Improvements over existing methods:**
+- Provides a fair distribution of requests in a circular manner, avoiding the risk of overloading a single instance.
+
+
+
+### Least Connections Load Balancing
+**Advantages:**
+- Dynamically allocates requests to instances with the fewest active connections.
+- Helps in evenly distributing the load and preventing bottlenecks.
+
+**Improvements over existing methods:**
+- Unlike static allocation methods, it adapts to real-time traffic conditions, reducing the chances of overloading any single instance.
 
 ### Least Load Load Balancing
 **Advantages:**
