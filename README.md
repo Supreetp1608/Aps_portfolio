@@ -76,7 +76,7 @@ The main objectives of this portfolio are:
 
 The following diagram represents the process of load balancing in an OpenStack cloud environment using various algorithms.
 
-![System Model](images/model1.png)
+![System Model](images/model.png)
 
 ### Description
 
