@@ -164,7 +164,6 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 - Implement additional load balancing algorithms.
 - Optimize data collection methods for minimal performance impact.
-- Conduct performance testing and analysis under different load conditions.
 
 ## Conclusion
 
