@@ -13,3 +13,8 @@ The Data Collection module is crucial for gathering real-time metrics from insta
 ### Use Case:
 
 The Data Collection module is indispensable in environments where dynamic workload management and resource optimization are critical, such as in cloud computing platforms like OpenStack. It empowers administrators to monitor instance health, identify performance bottlenecks, and implement proactive measures to enhance system reliability and scalability.
+
+
+### Code
+
+Click [here](codes/data_collection.cpp) to view the code for the Data Collection module.
