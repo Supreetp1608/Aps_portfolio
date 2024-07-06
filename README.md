@@ -19,6 +19,7 @@
 
 - [Introduction](#introduction)
 - [Objectives/Need of Portfolio](#objectivesneed-of-portfolio)
+- [Visuals](#visuals)
 - [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
   - [Data Collection and Monitoring](#data-collection-and-monitoring)
   - [Round Robin Load Balancing](#round-robin-load-balancing)
@@ -45,6 +46,24 @@ The main objectives of this portfolio are:
 - To explore various business use cases and applications of these algorithms and data structures.
 - To analyze the impact of these technologies on user experience and system performance.
 - To provide insights into data analysis and the role of intelligent data structures in load balancing.
+
+## Visuals
+
+### Complete OpenStack Setup
+![OpenStack Setup](images/openstack_setup.png)
+*This image shows the complete OpenStack setup used for the project.*
+
+### Networks Created
+![Networks](images/networks.png)
+*This image displays the networks created within the OpenStack environment.*
+
+### Router
+![Router](images/router.png)
+*This image shows the router configuration within the OpenStack setup.*
+
+### Instances Launched
+![Instances](images/instances.png)
+*This image illustrates the instances launched in the OpenStack environment.*
 
 ## Algorithms and Data Structures: Business Use Cases and Applications
 
