@@ -1,4 +1,4 @@
-# Load Balancing in OpenStack Cloud: Investigating Intelligent Data Structures
+# Load Balancing in OpenStack Cloud
 
 ## Course Information
 
