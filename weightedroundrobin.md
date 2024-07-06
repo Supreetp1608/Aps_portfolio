@@ -17,3 +17,7 @@ Weighted Round Robin Load Balancing is suitable for environments where instances
 ## Implementation
 
 Here is the C++ implementation of the Weighted Round Robin Load Balancing algorithm. This implementation reads metrics from a CSV file and distributes incoming requests to instances based on their assigned weights.
+
+### Code
+
+Click [here](codes/weighted_round_robin.cpp) to view the code for the Weighted Round Robin Load Balancing module.
