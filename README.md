@@ -23,9 +23,9 @@
 - [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
   - [Data Collection and Monitoring](#data-collection-and-monitoring)
   - [Ant Colony Optimization (ACO)](#ant_colony.md)
+  - [Weighted Round Robin Load Balancing](#weighted-round-robin-load-balancing)
   - [Round Robin Load Balancing](#round-robin-load-balancing)
   - [Least Connections Load Balancing](#least-connections-load-balancing)
-  - [Weighted Round Robin Load Balancing](#weighted-round-robin-load-balancing)
   - [Least Load Load Balancing](#least-load-load-balancing)
 - [Challenges](#challenges)
 - [To-Do](#to-do)
@@ -82,6 +82,12 @@ Ant Colony Optimization (ACO) is a probabilistic technique inspired by the forag
 
 - **File:** [ACO Load Balancing](ACO.cpp)
 
+### Weighted Round Robin Load Balancing
+
+In the Weighted Round Robin Load Balancing module, we will enhance the Round Robin method by assigning weights to instances. More powerful instances will handle more requests, optimizing resource utilization and improving overall system performance.
+
+- **File:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
+  
 ### Round Robin Load Balancing
 
 Round Robin Load Balancing is one of the simplest methods. We will implement this method to distribute incoming requests to instances in a circular order, ensuring a balanced distribution of load. This module will demonstrate how a straightforward algorithm can provide an effective load distribution.
@@ -93,12 +99,6 @@ Round Robin Load Balancing is one of the simplest methods. We will implement thi
 The Least Connections Load Balancing module will assign incoming requests to the instance with the fewest active connections. This dynamic allocation helps in evenly distributing the load and preventing any single instance from becoming a bottleneck.
 
 - **File:** [Least Connections Load Balancing](leastconnections.md)
-
-### Weighted Round Robin Load Balancing
-
-In the Weighted Round Robin Load Balancing module, we will enhance the Round Robin method by assigning weights to instances. More powerful instances will handle more requests, optimizing resource utilization and improving overall system performance.
-
-- **File:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
 
 ### Least Load Load Balancing
 
