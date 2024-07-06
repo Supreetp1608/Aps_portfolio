@@ -20,4 +20,4 @@ Here is the C++ implementation of the Least Load Load Balancing algorithm. This 
 
 ### Code
 
-Click [here](codes/least_load.cpp.cpp) to view the code for the Least Load Load Balancing module.
+Click [here](codes/least_load.cpp) to view the code for the Least Load Load Balancing module.
