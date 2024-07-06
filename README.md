@@ -80,7 +80,7 @@ Efficient load balancing starts with accurate data collection and monitoring. We
 
 Ant Colony Optimization (ACO) is a probabilistic technique inspired by the foraging behavior of ants. It is used for solving computational problems which can be reduced to finding good paths through graphs. In the context of load balancing, ACO helps in dynamically distributing incoming requests to various instances by simulating the pheromone trail-following behavior of ants.
 
-- **File:** [ACO Load Balancing](ACO.cpp)
+- **File:** [ACO Load Balancing](ant_colony.md)
 
 ### Weighted Round Robin Load Balancing
 
