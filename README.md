@@ -66,6 +66,10 @@ The main objectives of this portfolio are:
 ![Instances](images/instances.png)
 *This image illustrates the instances launched in the OpenStack environment.*
 
+### Topology
+![Instances](images/topology.png)
+*This image illustrates the topology created in the OpenStack environment.*
+
 ## Algorithms and Data Structures: Business Use Cases and Applications
 
 In this section, we propose to build and explore various algorithms and data structures that can be used to improve load balancing within OpenStack. By implementing these modules, we aim to manage services more efficiently and ensure optimal performance. The key focus areas of our project will include:
