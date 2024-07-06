@@ -67,35 +67,35 @@ The main objectives of this portfolio are:
 
 ## Algorithms and Data Structures: Business Use Cases and Applications
 
-In this section, we will explore various algorithms and data structures used in load balancing within OpenStack to manage services efficiently. Some of the key focus areas will include:
+In this section, we propose to build and explore various algorithms and data structures that can be used to improve load balancing within OpenStack. By implementing these modules, we aim to manage services more efficiently and ensure optimal performance. The key focus areas of our project will include:
 
 ### Data Collection and Monitoring
 
-Efficient load balancing starts with accurate data collection and monitoring. This involves gathering metrics such as CPU and memory usage from various instances to make informed decisions.
+Efficient load balancing starts with accurate data collection and monitoring. We will develop a module that gathers essential metrics such as CPU and memory usage from various instances. This data will be crucial for making informed load balancing decisions.
 
 - **File:** [Data Collection](datacollection.md)
 
 ### Round Robin Load Balancing
 
-Round Robin Load Balancing is one of the simplest methods. It distributes incoming requests to instances in a circular order, ensuring a balanced distribution of load.
+Round Robin Load Balancing is one of the simplest methods. We will implement this method to distribute incoming requests to instances in a circular order, ensuring a balanced distribution of load. This module will demonstrate how a straightforward algorithm can provide an effective load distribution.
 
 - **File:** [Round Robin Load Balancing](roundrobin.md)
 
 ### Least Connections Load Balancing
 
-Least Connections Load Balancing assigns incoming requests to the instance with the fewest active connections, helping to evenly distribute the load across instances.
+The Least Connections Load Balancing module will assign incoming requests to the instance with the fewest active connections. This dynamic allocation helps in evenly distributing the load and preventing any single instance from becoming a bottleneck.
 
 - **File:** [Least Connections Load Balancing](leastconnections.md)
 
 ### Weighted Round Robin Load Balancing
 
-Weighted Round Robin Load Balancing enhances the Round Robin method by assigning weights to instances, allowing more powerful instances to handle more requests.
+In the Weighted Round Robin Load Balancing module, we will enhance the Round Robin method by assigning weights to instances. More powerful instances will handle more requests, optimizing resource utilization and improving overall system performance.
 
 - **File:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
 
 ### Least Load Load Balancing
 
-Least Load Load Balancing assigns incoming requests to the instance with the least load, taking into account CPU and memory usage.
+The Least Load Load Balancing module will assign incoming requests to the instance with the least load, considering real-time metrics like CPU and memory usage. This approach ensures that the instance with the lowest load receives the next request, thereby improving response times and system efficiency.
 
 - **File:** [Least Load Load Balancing](leastload.md)
 
