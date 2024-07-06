@@ -1,6 +1,6 @@
 # _config.yml
 
-remote_theme: pages-themes/leap-day
+remote_theme: pages-themes/cayman
 
 plugins:
   - jekyll-remote-theme
