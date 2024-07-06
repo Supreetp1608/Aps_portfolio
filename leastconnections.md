@@ -20,4 +20,4 @@ Here is the C++ implementation of the Least Connections Load Balancing algorithm
 
 ### Code
 
-Click [here](codes/least_connections.cpp) to view the code for the Data Collection module.
+Click [here](codes/least_connections.cpp) to view the code for theLeast Connections Load Balancing module.
