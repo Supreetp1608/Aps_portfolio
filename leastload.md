@@ -17,3 +17,7 @@ Least Load Load Balancing is ideal for environments where workload distribution 
 ## Implementation
 
 Here is the C++ implementation of the Least Load Load Balancing algorithm. This implementation reads metrics from a CSV file and distributes incoming requests to instances based on their current load metrics.
+
+### Code
+
+Click [here](codes/least_load.cpp.cpp) to view the code for the Least Load Load Balancing module.
