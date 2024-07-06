@@ -84,31 +84,31 @@ Efficient load balancing starts with accurate data collection and monitoring. We
 
 Ant Colony Optimization (ACO) is a probabilistic technique inspired by the foraging behavior of ants. It is used for solving computational problems which can be reduced to finding good paths through graphs. In the context of load balancing, ACO helps in dynamically distributing incoming requests to various instances by simulating the pheromone trail-following behavior of ants.
 
-- **File:** [ACO Load Balancing](ant_colony.md)
+- **Click here:** [ACO Load Balancing](ant_colony.md)
 
 ### Weighted Round Robin Load Balancing
 
 In the Weighted Round Robin Load Balancing module, we will enhance the Round Robin method by assigning weights to instances. More powerful instances will handle more requests, optimizing resource utilization and improving overall system performance.
 
-- **File:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
+- **Click here:** [Weighted Round Robin Load Balancing](weightedroundrobin.md)
   
 ### Round Robin Load Balancing
 
 Round Robin Load Balancing is one of the simplest methods. We will implement this method to distribute incoming requests to instances in a circular order, ensuring a balanced distribution of load. This module will demonstrate how a straightforward algorithm can provide an effective load distribution.
 
-- **File:** [Round Robin Load Balancing](roundrobin.md)
+- **Click here:** [Round Robin Load Balancing](roundrobin.md)
 
 ### Least Connections Load Balancing
 
 The Least Connections Load Balancing module will assign incoming requests to the instance with the fewest active connections. This dynamic allocation helps in evenly distributing the load and preventing any single instance from becoming a bottleneck.
 
-- **File:** [Least Connections Load Balancing](leastconnections.md)
+- **Click here:** [Least Connections Load Balancing](leastconnections.md)
 
 ### Least Load Load Balancing
 
 The Least Load Load Balancing module will assign incoming requests to the instance with the least load, considering real-time metrics like CPU and memory usage. This approach ensures that the instance with the lowest load receives the next request, thereby improving response times and system efficiency.
 
-- **File:** [Least Load Load Balancing](leastload.md)
+- **Click here:** [Least Load Load Balancing](leastload.md)
 
 ## Why These Methods Are Better
 
