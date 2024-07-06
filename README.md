@@ -22,7 +22,7 @@
 - [Visuals](#visuals)
 - [Algorithms and Data Structures: Business Use Cases and Applications](#algorithms-and-data-structures-business-use-cases-and-applications)
   - [Data Collection and Monitoring](#data-collection-and-monitoring)
-  - [Ant Colony Optimization (ACO)](#ant_colony.md)
+  - [Ant Colony Optimization (ACO)](#ant-colony-optimization-(ACO)-for-load-balancing)
   - [Weighted Round Robin Load Balancing](#weighted-round-robin-load-balancing)
   - [Round Robin Load Balancing](#round-robin-load-balancing)
   - [Least Connections Load Balancing](#least-connections-load-balancing)
