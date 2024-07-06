@@ -17,3 +17,7 @@ Least Connections Load Balancing is ideal for scenarios where the processing tim
 ## Implementation
 
 Here is the C++ implementation of the Least Connections Load Balancing algorithm. This implementation reads metrics from a CSV file and distributes incoming requests to instances based on the number of active connections.
+
+### Code
+
+Click [here](codes/least_connections.cpp) to view the code for the Data Collection module.
