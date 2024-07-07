@@ -93,7 +93,7 @@ The system model depicted in the diagram represents the process of load balancin
    - This represents the incoming requests from users that need to be processed by the cloud instances.
 
 2. **Load Balancing Algorithms:**
-   - This component is responsible for deciding how to distribute the incoming requests among the available instances. It can use different algorithms such as Round Robin, Least Connections, Weighted Round Robin, Least Load, or Ant Colony Optimization (ACO) to make these decisions.
+   - This component is responsible for deciding how to distribute the incoming requests among the available instances. It can use different algorithms to make these decisions.
 
 3. **Monitor Resource Usage:**
    - This module continuously monitors the resource usage (CPU, memory, etc.) of each instance. It provides real-time data that the load balancing algorithms use to make informed decisions about where to route incoming requests.
@@ -144,42 +144,36 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 ## First-Come, First-Served (FCFS) Load Balancing
 
-### Description:
 The FCFS load balancing algorithm assigns incoming requests to instances in the order they arrive. This method ensures that each request is handled sequentially, maintaining the order of arrival.
 
 - **Click here:** [FCFS Load Balancing](fcfs.md)
 
 ## Priority Queue Load Balancing
 
-### Description:
 Priority Queue load balancing assigns requests to instances based on their priority. Higher priority instances handle more critical tasks first, which can be determined by CPU or memory load or other metrics.
 
 - **Click here:** [Priority Queue Load Balancing](priority_queue.md)
 
 ## Shortest Job First (SJF) Load Balancing
 
-### Description:
 The SJF algorithm assigns requests to the instance with the smallest current load, combining CPU and memory usage. This minimizes the average waiting time for requests and improves overall system performance.
 
 - **Click here:** [SJF Load Balancing](sjf.md)
 
 ## Depth-First Search (DFS) Load Balancing
 
-### Description:
 DFS load balancing explores each instance's load in depth, evaluating multiple levels of load metrics. This thorough assessment helps in finding the optimal instance for request handling.
 
 - **Click here:** [DFS Load Balancing](dfs.md)
 
 ## Breadth-First Search (BFS) Load Balancing
 
-### Description:
 BFS load balancing examines instances' load level by level, ensuring a fair and balanced consideration of all instances. It finds the least loaded instance in a balanced manner.
 
 - **Click here:** [BFS Load Balancing](bfs.md)
 
 ## Binary Search Tree (BST) Load Balancing
 
-### Description:
 BST load balancing uses a binary search tree to efficiently find and assign requests to the instance with the least load. Instances are automatically kept sorted based on their load, making the search process efficient.
 
 - **Click here:** [BST Load Balancing](bst.md)
