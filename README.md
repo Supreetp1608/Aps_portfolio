@@ -28,6 +28,12 @@
   - [Round Robin Load Balancing](#round-robin-load-balancing)
   - [Least Connections Load Balancing](#least-connections-load-balancing)
   - [Least Load Load Balancing](#least-load-load-balancing)
+  - [First-Come, First-Served (FCFS) Load Balancing](#first-come-first-served-fcfs-load-balancing)
+  - [Priority Queue Load Balancing](#priority-queue-load-balancing)
+  - [Shortest Job First (SJF) Load Balancing](#shortest-job-first-sjf-load-balancing)
+  - [Depth-First Search (DFS) Load Balancing](#depth-first-search-dfs-load-balancing)
+  - [Breadth-First Search (BFS) Load Balancing](#breadth-first-search-bfs-load-balancing)
+  - [Binary Search Tree (BST) Load Balancing](#binary-search-tree-bst-load-balancing)
 - [Challenges](#challenges)
 - [To-Do](#to-do)
 - [Conclusion](#conclusion)
@@ -136,6 +142,50 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 - **Click here:** [Least Load Load Balancing](leastload.md)
 
+## First-Come, First-Served (FCFS) Load Balancing
+
+### Description:
+The FCFS load balancing algorithm assigns incoming requests to instances in the order they arrive. This method ensures that each request is handled sequentially, maintaining the order of arrival.
+
+- **Click here:** [FCFS Load Balancing](fcfs.md)
+
+## Priority Queue Load Balancing
+
+### Description:
+Priority Queue load balancing assigns requests to instances based on their priority. Higher priority instances handle more critical tasks first, which can be determined by CPU or memory load or other metrics.
+
+- **Click here:** [Priority Queue Load Balancing](priority_queue.md)
+
+## Shortest Job First (SJF) Load Balancing
+
+### Description:
+The SJF algorithm assigns requests to the instance with the smallest current load, combining CPU and memory usage. This minimizes the average waiting time for requests and improves overall system performance.
+
+- **Click here:** [SJF Load Balancing](sjf.md)
+
+## Depth-First Search (DFS) Load Balancing
+
+### Description:
+DFS load balancing explores each instance's load in depth, evaluating multiple levels of load metrics. This thorough assessment helps in finding the optimal instance for request handling.
+
+- **Click here:** [DFS Load Balancing](dfs.md)
+
+## Breadth-First Search (BFS) Load Balancing
+
+### Description:
+BFS load balancing examines instances' load level by level, ensuring a fair and balanced consideration of all instances. It finds the least loaded instance in a balanced manner.
+
+- **Click here:** [BFS Load Balancing](bfs.md)
+
+## Binary Search Tree (BST) Load Balancing
+
+### Description:
+BST load balancing uses a binary search tree to efficiently find and assign requests to the instance with the least load. Instances are automatically kept sorted based on their load, making the search process efficient.
+
+- **Click here:** [BST Load Balancing](bst.md)
+
+
+
 ## Why These Methods Are Better
 
 ### Ant Colony Optimization (ACO) for Load Balancing
@@ -183,15 +233,83 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 **Improvements over existing methods:**
 - Offers a highly adaptive approach that ensures optimal use of resources by directing traffic to the least loaded instance, improving response times and system efficiency.
 
+### First-Come, First-Served (FCFS) Load Balancing
+
+**Advantages:**
+- Simple and easy to implement.
+- Ensures that requests are handled in the order they arrive, which can be fair in certain scenarios.
+
+**Improvements over existing methods:**
+- Provides a straightforward approach to request handling, reducing the risk of starvation.
+- Useful in scenarios where request order is crucial and must be preserved.
+
+### Priority Queue Load Balancing
+
+**Advantages:**
+- Assigns requests based on predefined priorities, ensuring that more critical tasks are handled first.
+- Can be dynamically adjusted based on real-time metrics.
+
+**Improvements over existing methods:**
+- Enhances resource allocation efficiency by considering task priority.
+- Allows for dynamic adjustment of instance priorities based on current load and performance metrics.
+
+### Shortest Job First (SJF) Load Balancing
+
+**Advantages:**
+- Minimizes the average waiting time for requests by assigning them to the instance with the smallest current load.
+- Efficient for scenarios where shorter tasks should be prioritized to improve overall system performance.
+
+**Improvements over existing methods:**
+- Reduces the overall response time by prioritizing instances with lower loads.
+- Balances the system more effectively, especially in environments with varying task sizes.
+
+### Depth-First Search (DFS) Load Balancing
+
+**Advantages:**
+- Explores each instance's load in depth, allowing for more thorough load assessment.
+- Can help in finding the optimal instance by considering deeper levels of load information.
+
+**Improvements over existing methods:**
+- Provides a deeper analysis of instance loads, potentially leading to better load distribution.
+- Useful in scenarios where instances have multiple levels of load metrics to consider.
+
+### Breadth-First Search (BFS) Load Balancing
+
+**Advantages:**
+- Examines instances' load level by level, ensuring that all instances are considered fairly.
+- Useful for finding the least loaded instance in a balanced manner.
+
+**Improvements over existing methods:**
+- Ensures a fair and balanced load distribution by considering all instances at each level.
+- Effective in scenarios where load needs to be distributed evenly across all instances.
+
+### Binary Search Tree (BST) Load Balancing
+
+**Advantages:**
+- Efficiently finds and assigns requests to the instance with the least load using binary search tree properties.
+- Automatically keeps instances sorted based on their load.
+
+**Improvements over existing methods:**
+- Provides a fast and efficient way to find the optimal instance with minimal load.
+- Automatically balances the load distribution as the tree structure maintains sorted order of instances by load.
+
+
 ### Time and Space Complexity of Load Balancing Algorithms
 
-| Algorithm                  | Time Complexity                      | Space Complexity                        |
-|----------------------------|--------------------------------------|-----------------------------------------|
-| **Ant Colony Optimization**| Depends on implementation complexity | Depends on implementation complexity    |
-| **Weighted Round Robin**   | O(1)                                 | O(n) (for storing instance weights)     |
-| **Round Robin**            | O(1)                                 | O(n) (for storing instance states)      |
-| **Least Connections**      | O(n) (to find instance with fewest connections) | O(n) (for storing instance states)      |
-| **Least Load**             | O(n) (to find instance with least load) | O(n) (for storing instance metrics)     |
+| Algorithm                    | Time Complexity                            | Space Complexity                         |
+|------------------------------|--------------------------------------------|------------------------------------------|
+| **Ant Colony Optimization**  | Depends on implementation complexity       | Depends on implementation complexity     |
+| **Weighted Round Robin**     | O(1)                                       | O(n) (for storing instance weights)      |
+| **Round Robin**              | O(1)                                       | O(n) (for storing instance states)       |
+| **Least Connections**        | O(n) (to find instance with fewest connections) | O(n) (for storing instance states)      |
+| **Least Load**               | O(n) (to find instance with least load)    | O(n) (for storing instance metrics)      |
+| **First-Come, First-Served** | O(1)                                       | O(1)                                      |
+| **Priority Queue**           | O(log n) (for insertion and extraction)    | O(n) (for storing instance priorities)   |
+| **Shortest Job First**       | O(n) (to find instance with smallest load) | O(n) (for storing instance loads)        |
+| **Depth-First Search**       | O(n) (to explore instance loads)           | O(n) (for storing instance loads)        |
+| **Breadth-First Search**     | O(n) (to explore instance loads)           | O(n) (for storing instance loads)        |
+| **Binary Search Tree**       | O(log n) (for insertion and searching)     | O(n) (for storing instance loads in BST) |
+
 
 ## Challenges
 
