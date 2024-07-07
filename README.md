@@ -142,37 +142,37 @@ The Least Load Load Balancing module will assign incoming requests to the instan
 
 - **Click here:** [Least Load Load Balancing](leastload.md)
 
-## First-Come, First-Served (FCFS) Load Balancing
+### First-Come, First-Served (FCFS) Load Balancing
 
 The FCFS load balancing algorithm assigns incoming requests to instances in the order they arrive. This method ensures that each request is handled sequentially, maintaining the order of arrival.
 
 - **Click here:** [FCFS Load Balancing](fcfs.md)
 
-## Priority Queue Load Balancing
+### Priority Queue Load Balancing
 
 Priority Queue load balancing assigns requests to instances based on their priority. Higher priority instances handle more critical tasks first, which can be determined by CPU or memory load or other metrics.
 
 - **Click here:** [Priority Queue Load Balancing](priority_queue.md)
 
-## Shortest Job First (SJF) Load Balancing
+### Shortest Job First (SJF) Load Balancing
 
 The SJF algorithm assigns requests to the instance with the smallest current load, combining CPU and memory usage. This minimizes the average waiting time for requests and improves overall system performance.
 
 - **Click here:** [SJF Load Balancing](sjf.md)
 
-## Depth-First Search (DFS) Load Balancing
+### Depth-First Search (DFS) Load Balancing
 
 DFS load balancing explores each instance's load in depth, evaluating multiple levels of load metrics. This thorough assessment helps in finding the optimal instance for request handling.
 
 - **Click here:** [DFS Load Balancing](dfs.md)
 
-## Breadth-First Search (BFS) Load Balancing
+### Breadth-First Search (BFS) Load Balancing
 
 BFS load balancing examines instances' load level by level, ensuring a fair and balanced consideration of all instances. It finds the least loaded instance in a balanced manner.
 
 - **Click here:** [BFS Load Balancing](bfs.md)
 
-## Binary Search Tree (BST) Load Balancing
+### Binary Search Tree (BST) Load Balancing
 
 BST load balancing uses a binary search tree to efficiently find and assign requests to the instance with the least load. Instances are automatically kept sorted based on their load, making the search process efficient.
 
