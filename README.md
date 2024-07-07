@@ -37,6 +37,7 @@
 - [Challenges](#challenges)
 - [To-Do](#to-do)
 - [Conclusion](#conclusion)
+- [References](#references)
 
 ---
 
@@ -319,6 +320,17 @@ BST load balancing uses a binary search tree to efficiently find and assign requ
 ## Conclusion
 
 This portfolio aims to provide a comprehensive understanding of how OpenStack leverages cutting-edge algorithms and data structures to maintain a competitive edge and deliver exceptional services to its users. By exploring and implementing various load balancing techniques, we can enhance the efficiency and reliability of OpenStack cloud environments.
+
+## References
+
+1. OpenStack. "OpenStack Cloud Software." OpenStack Documentation. Available at: [https://docs.openstack.org](https://docs.openstack.org)
+2. M. Mitzenmacher, "The Power of Two Choices in Randomized Load Balancing," IEEE Transactions on Parallel and Distributed Systems, vol. 12, no.10, pp. 1094-1104, 2001.
+3. T. Xie and X. Qin, "Improving security for periodic tasks in embedded systems through scheduling," ACM Transactions on Embedded Computing Systems (TECS), vol. 6, no. 3, 2007.
+4. P. J. Ezhilchelvan, R. A. Macedo, and R. M. Neves, "Adaptive load sharing and balancing in a distributed system of functional modules," Distributed Computing Systems, 1992., 12th International Conference on. IEEE, 1992.
+5. C. Blum, "Ant colony optimization: Introduction and recent trends," Physics of Life Reviews, vol. 2, no. 4, pp. 353-373, 2005.
+
+
+
 
 ---
 
